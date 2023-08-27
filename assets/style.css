@@ -1,0 +1,39 @@
+:root {
+    --borderOutline: #000A50;
+    --headingText: #000
+}
+
+body {
+    background-color: #dddfff;
+}
+
+header h1 {
+    position: relative;
+    left: 50px;
+}
+
+nav ul {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+
+nav ul li {
+    float: right;
+    margin: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+}
+
+#portraitImg {
+    margin: 20px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
