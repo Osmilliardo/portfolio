@@ -54,16 +54,35 @@ header section {
 }
 
 /* the following few sections define the styling of the main sections of the site */
-main section h2 {
+main {
     margin: 0;
+    border: solid #000A50 3px;
+    padding: 2%;
+}
+
+main section h2 {
+    margin: 20;
     border: solid #000A50 3px;
     padding: 2%;
     display: inline-flex;
-    position: relative;
+    flex-direction: column;
 }
 
-.mainBodyText {
+main section p, ul {
     margin: 0;
     border: solid #000A50 3px;
     padding: 2%;
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: column;
+    center;
 }
+/* #aboutMe {
+
+} */
+
+/* #portfolio {
+} */
+
+/* #contactInfo {
+} */
