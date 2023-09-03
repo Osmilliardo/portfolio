@@ -10,10 +10,7 @@
 
 /* the following sections define the style of the heading elements; ie my name, the nav bar, my portrait and the heading banner */
 header {
-    /* margin: 10px; */
-    border: solid #000A50 3px;
-    /* padding: 20px, 35px; */
-    
+    border: solid #000A50 3px;    
 }
 
 /* this section styles the name portion of the header */
@@ -56,46 +53,17 @@ header section {
     padding: 2%;
 }
 
-/* * {
-    top: 10px;
-}
-
-body {
-    background-color: #dddfff;
-}
-
-header {
-    margin-top: 10%;
-    display: block;
-}
-
-header h1 {
-    position: relative;
-    left: 2.5%;
-}
-
-nav ul {
-    position: absolute;
-    top: ;
-    right: 3%;
-    list-style-type: none;
+/* the following few sections define the styling of the main sections of the site */
+main section h2 {
     margin: 0;
-    padding: 0;   
-}
-
-nav ul li {
-    float: right;
-    margin: 10px;
-}
-
-nav a {
-    display: block;
-    padding: 8px;
-}
-
-#portraitImg {
-    margin: 20px;
+    border: solid #000A50 3px;
+    padding: 2%;
+    display: inline-flex;
     position: relative;
-    left: 50px;
-    top: 0px;
-} */
+}
+
+.mainBodyText {
+    margin: 0;
+    border: solid #000A50 3px;
+    padding: 2%;
+}
