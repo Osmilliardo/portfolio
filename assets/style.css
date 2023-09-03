@@ -3,19 +3,78 @@
     --headingText: #000
 }
 
+* {
+    background-color: #dddfff;
+    margin: 1%;
+}
+
+/* the following sections define the style of the heading elements; ie my name, the nav bar, my portrait and the heading banner */
+header {
+    /* margin: 10px; */
+    border: solid #000A50 3px;
+    /* padding: 20px, 35px; */
+    
+}
+
+/* this section styles the name portion of the header */
+header h1 {
+    margin: 3%,0%;
+    border: solid #000A50 3px;
+    padding: 2%;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+}
+
+/* this section and the following one style the nav bar portions of the header */
+header nav ul {
+    position: absolute;
+    right: 6%;
+    top: 8%;
+    margin: 0%;
+    border: solid #000A50 3px;
+    padding: 1%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}   
+
+header nav ul li {
+    margin: 2%;
+    border: solid #000A50 3px;
+    padding: 2%;
+    white-space: nowrap;
+}
+
+/* this section styles the portrait and banner portions of the heading */
+header section {
+    margin: 0;
+    border: solid #000A50 3px;
+    padding: 2%;
+}
+
+/* * {
+    top: 10px;
+}
+
 body {
     background-color: #dddfff;
 }
 
+header {
+    margin-top: 10%;
+    display: block;
+}
+
 header h1 {
     position: relative;
-    left: 50px;
+    left: 2.5%;
 }
 
 nav ul {
     position: absolute;
-    top: 5px;
-    right: 50px;
+    top: ;
+    right: 3%;
     list-style-type: none;
     margin: 0;
     padding: 0;   
@@ -35,5 +94,5 @@ nav a {
     margin: 20px;
     position: relative;
     left: 50px;
-    top: 50px;
-}
+    top: 0px;
+} */
