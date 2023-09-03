@@ -30,13 +30,16 @@ header h1 {
 header nav ul {
     position: absolute;
     right: 6%;
-    top: 8%;
+    top: 7%;
+    height: fit-content;
+    width: fit-content;
     margin: 0%;
     border: solid #000A50 3px;
-    padding: 1%;
+    padding: 2%;
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }   
 
 header nav ul li {
