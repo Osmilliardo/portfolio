@@ -8,6 +8,10 @@
     margin: 1%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* the following sections define the style of the heading elements; ie my name, the nav bar, my portrait and the heading banner */
 header {
     border: solid #000A50 3px;    
@@ -75,16 +79,40 @@ main section p {
     width: 60%;
     border: solid #000A50 3px;
     padding: 2%;
-    list-style-type: none;
     display: inline-flex;
     flex-direction: column;
     text-align: center;
 }
-/* #aboutMe {
-} */
 
-/* #portfolio {
-} */
+footer {
+    margin: auto;
+    border: solid #000A50 3px;
+    padding: 2%;
+    /* display: inline-flex; */
+    width: 66%;
+}
 
-/* #contactInfo {
+footer h3 {
+    margin: auto;
+    border: solid #000A50 3px;
+    padding: 0;
+    display: inline-flex;
+}
+
+footer ul {
+    margin: auto;
+    border: solid #000A50 3px;
+    padding: 0;
+    /* display: inline-flex; */
+    width: 60%;    
+    list-style-type: none;
+}
+
+/* footer ul li {
+    margin: 1%;
+    border: solid #000A50 3px;
+    padding: 1%;
+    display: inline-flex;
+    list-style-type: none;
+    width: fit-content;
 } */
