@@ -28,7 +28,7 @@ header nav ul {
     position: absolute;
     right: 6%;
     top: 7%;
-    height: fit-content;
+    /* height: fit-content; */
     width: fit-content;
     margin: 0%;
     border: solid #000A50 3px;
@@ -57,28 +57,30 @@ header section {
 main {
     margin: 0;
     border: solid #000A50 3px;
-    padding: 2%;
+    padding: 0;
+    
 }
 
 main section h2 {
-    margin: 20;
+    margin: 0;
+    width: 18%;
     border: solid #000A50 3px;
     padding: 2%;
     display: inline-flex;
     flex-direction: column;
 }
 
-main section p, ul {
+main section p {
     margin: 0;
+    width: 60%;
     border: solid #000A50 3px;
     padding: 2%;
     list-style-type: none;
     display: inline-flex;
     flex-direction: column;
-    center;
+    text-align: center;
 }
 /* #aboutMe {
-
 } */
 
 /* #portfolio {
