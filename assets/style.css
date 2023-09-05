@@ -215,6 +215,7 @@ footer ul li a {
     header h1 {
         font-size: 500%;
         position: relative;
+        top: 50px;
     }
 
     header nav {
@@ -258,6 +259,12 @@ footer ul li a {
     }
 
     footer {
+        /* display: none; */
+        margin: 0;
+        width: 90%;
+    }
+
+    footer h3 {
         display: none;
     }
 
